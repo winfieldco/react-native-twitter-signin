@@ -109,13 +109,10 @@ public class TwitterSigninModule extends ReactContextBaseJavaModule implements A
     }
 
     @Override
-    public void onNewIntent(Intent intent) {
-    }
-
-    @Override
-    public void onActivityResult(Activity currentActivity, int requestCode, int resultCode, Intent data) {
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (twitterAuthClient != null && twitterAuthClient.getRequestCode() == requestCode) {
             twitterAuthClient.onActivityResult(requestCode, resultCode, data);
         }
     }
+
 }
