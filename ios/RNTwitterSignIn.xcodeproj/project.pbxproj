@@ -12,65 +12,6 @@
 		D0EFAE3C1F07833600325F6D /* RNTwitterSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EFAE3A1F07833600325F6D /* RNTwitterSignIn.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D003110F1F09F8C400448DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
-			remoteInfo = React;
-		};
-		D00311111F09F8C400448DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
-			remoteInfo = "React-tvOS";
-		};
-		D00311131F09F8C400448DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
-			remoteInfo = yoga;
-		};
-		D00311151F09F8C400448DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
-			remoteInfo = "yoga-tvOS";
-		};
-		D00311171F09F8C400448DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
-			remoteInfo = cxxreact;
-		};
-		D00311191F09F8C400448DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
-			remoteInfo = "cxxreact-tvOS";
-		};
-		D003111B1F09F8C400448DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
-			remoteInfo = jschelpers;
-		};
-		D003111D1F09F8C400448DF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
-			remoteInfo = "jschelpers-tvOS";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		D07E57231F07806700A7160F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -88,7 +29,6 @@
 		D00310F21F09F83000448DF6 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = dependencies/TwitterCore.framework; sourceTree = "<group>"; };
 		D00310F31F09F83000448DF6 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = dependencies/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		D00310F41F09F83000448DF6 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = dependencies/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
-		D00311041F09F8C400448DF6 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		D07E57251F07806700A7160F /* libRNTwitterSignIn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTwitterSignIn.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EFAE3A1F07833600325F6D /* RNTwitterSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTwitterSignIn.m; sourceTree = "<group>"; };
 		D0EFAE3B1F07833600325F6D /* RNTwitterSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTwitterSignIn.h; sourceTree = "<group>"; };
@@ -107,25 +47,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D00311051F09F8C400448DF6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D00311101F09F8C400448DF6 /* libReact.a */,
-				D00311121F09F8C400448DF6 /* libReact.a */,
-				D00311141F09F8C400448DF6 /* libyoga.a */,
-				D00311161F09F8C400448DF6 /* libyoga.a */,
-				D00311181F09F8C400448DF6 /* libcxxreact.a */,
-				D003111A1F09F8C400448DF6 /* libcxxreact.a */,
-				D003111C1F09F8C400448DF6 /* libjschelpers.a */,
-				D003111E1F09F8C400448DF6 /* libjschelpers.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D07E571C1F07806700A7160F = {
 			isa = PBXGroup;
 			children = (
-				D00311041F09F8C400448DF6 /* React.xcodeproj */,
 				D00310F11F09F83000448DF6 /* TwitterKit.framework */,
 				D00310F21F09F83000448DF6 /* TwitterCore.framework */,
 				D00310F31F09F83000448DF6 /* TwitterKitResources.bundle */,
@@ -189,77 +113,12 @@
 			mainGroup = D07E571C1F07806700A7160F;
 			productRefGroup = D07E57261F07806700A7160F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D00311051F09F8C400448DF6 /* Products */;
-					ProjectRef = D00311041F09F8C400448DF6 /* React.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D07E57241F07806700A7160F /* RNTwitterSignIn */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		D00311101F09F8C400448DF6 /* libReact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libReact.a;
-			remoteRef = D003110F1F09F8C400448DF6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D00311121F09F8C400448DF6 /* libReact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libReact.a;
-			remoteRef = D00311111F09F8C400448DF6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D00311141F09F8C400448DF6 /* libyoga.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libyoga.a;
-			remoteRef = D00311131F09F8C400448DF6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D00311161F09F8C400448DF6 /* libyoga.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libyoga.a;
-			remoteRef = D00311151F09F8C400448DF6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D00311181F09F8C400448DF6 /* libcxxreact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libcxxreact.a;
-			remoteRef = D00311171F09F8C400448DF6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D003111A1F09F8C400448DF6 /* libcxxreact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libcxxreact.a;
-			remoteRef = D00311191F09F8C400448DF6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D003111C1F09F8C400448DF6 /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = D003111B1F09F8C400448DF6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D003111E1F09F8C400448DF6 /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = D003111D1F09F8C400448DF6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D07E57211F07806700A7160F /* Sources */ = {
